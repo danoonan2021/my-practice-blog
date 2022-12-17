@@ -1,11 +1,13 @@
 
 import './App.css';
+import {NavBar} from './components/Navbar';
 
-function App() {
+export default function App() {
   return (
     <>
+      <NavBar/>
     </>
   );
 }
 
-export default App;
+
