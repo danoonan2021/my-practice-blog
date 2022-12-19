@@ -12,10 +12,6 @@ export function Button(props) {
 
 
     return (
-        <button className="button" type="button" onClick={handleClick} style={
-            {color: clicked ? "" : "white",
-             backgroundColor: clicked ? "" : "white" // still need to figure out how this works
-            }
-        } >{props.text}</button>
+        <button className="button" type="button" onClick={handleClick}>{props.text}</button>
       );
 }

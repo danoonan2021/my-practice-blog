@@ -1,10 +1,12 @@
 .background-image { 
-    max-height: 100%;
-    max-width: 100%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    border: 100px;
-    border-color: aqua;
+    display:  inline-block;
+    border: solid gainsboro 10px;
     filter: grayscale(75%);
+}
+
+
+/* TODO: Need to align the next text and add a paragraph next to the image on the home page. */
+.intro-statement {
+    display: inline-block;
+    align-items: center;
 }

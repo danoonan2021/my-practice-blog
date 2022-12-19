@@ -1,11 +1,24 @@
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: gainsboro; /* Green */
     border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
+    color: aqua;
+    height: auto;
+    padding-top: 20px;
+    text-align: end;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 35vh;
 
+}
+
+.button:hover {
+    border-bottom: solid aqua 3px;
+
+}
+
+.button:active {
+    color: white;
+    border-bottom: solid white 3px; 
 }

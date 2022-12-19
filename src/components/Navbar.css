@@ -1,16 +1,41 @@
-.header1 {
-
-    color: plum;
-    background-color: aqua;
-    margin: auto;
-    
+.navbar-logo {
+    font-size: larger;
+    font-style: italic;
+    align-self: center;
+    padding-right: 25px;
+    border: none;
 }
+
+.navbar-logo:hover {
+    color:aqua;
+}
+
 
 /* This is the list of elements on the navbar */
 .navbar-list {
+    color: white;
+    background-color: gainsboro;
+    margin: auto;
     list-style:none;
     display: flex;
-    align-items: center;
-    margin-left: 50vh;
-
+    align-items: top;
+    border-bottom: solid white 3px;
+    
+    
 }
+
+/* This is an element of the navbar */
+.navbar-elem {
+    padding-left: 10px;
+    height: auto;
+    width: auto;
+    margin-right: auto;
+}
+
+/* TODO: Might need to adjust the overall fragment html elem to center the welcome header. */
+.blog-header { 
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-self: center;
+}
+
