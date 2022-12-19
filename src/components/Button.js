@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-
+import React, { useState } from 'react';
+import './Button.css';
 
 export function Button(props) {
 
@@ -10,7 +10,12 @@ export function Button(props) {
         setClicked(true);
     };
 
+
     return (
-        <button  className='button' style={{color: clicked ? 'white' : '',}} onClick={handleClick}  value={props.text}></button>
+        <button className="button" type="button" onClick={handleClick} style={
+            {color: clicked ? "" : "white",
+             backgroundColor: clicked ? "" : "white" // still need to figure out how this works
+            }
+        } >{props.text}</button>
       );
 }

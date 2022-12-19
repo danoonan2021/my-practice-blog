@@ -14,11 +14,3 @@
     margin-left: 50vh;
 
 }
-
-
-/* This is an element in the navbar */
-.navbar-elem {
-    display: flex;
-    align-items: center;
-    margin-right: 50vh;
-}
