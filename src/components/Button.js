@@ -3,15 +3,13 @@ import './Button.css';
 
 export function Button(props) {
 
+    const text = props.text; // the text of the button
+
+    const path = props.page; // the path to the page
+
     const [clicked, setClicked] = useState(false);
 
-    // handles the click setting the state to true
-    const handleClick = () => {
-        setClicked(true);
-    };
-
-
     return (
-        <button className="button" type="button" onClick={handleClick}>{props.text}</button>
+        <button className="button" type="button" onClick={setClicked}>{props.text}</button>
       );
 }
